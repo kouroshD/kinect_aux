@@ -1,10 +1,10 @@
-cmake_minimum_required(VERSION 2.8.3)
+	cmake_minimum_required(VERSION 2.8.3)
 project(kinect_aux)
 
 ## Find catkin macros and libraries
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
-find_package(catkin REQUIRED COMPONENTS roscpp sensor_msgs std_msgs)
+find_package(catkin REQUIRED COMPONENTS roscpp sensor_msgs std_msgs tf)
 #find_package(PkgConfig REQUIRED)
 #pkg_check_modules(LIBUSB REQUIRED libusb-1.0)
 find_path(LIBUSB_INCLUDEDIR 
